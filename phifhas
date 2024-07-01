@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人博客</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        article {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .post-meta {
+            color: #777;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>个人博客</h1>
+    </header>
+    <main>
+        <article>
+            <h2>文章标题 1</h2>
+            <div class="post-meta">发布时间：2024-07-01</div>
+            <p>这里是文章内容的摘要或简介部分...</p>
+        </article>
+        <article>
+            <h2>文章标题 2</h2>
+            <div class="post-meta">发布时间：2024-06-30</div>
+            <p>这里是文章内容的摘要或简介部分...</p>
+        </article>
+        <!-- 你可以添加更多的文章部分 -->
+    </main>
+    <footer>
+        <p>&copy; 2024 个人博客</p>
+    </footer>
+</body>
+</html>
